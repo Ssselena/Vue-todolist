@@ -1,7 +1,8 @@
 <template>
     <div>
+        <img class="logo" src="../img/undraw_ideas_flow_cy7b.svg" alt="Header pic">
         <form @submit="addTodo">
-            <input type="text" v-model="title" name="title" placeholder="Add Todo...">
+            <input type="text" v-model="title" name="title" placeholder="What's you up for today?">
             <input type="submit" value="Submit" class="btn">
         </form>
     </div>
@@ -42,10 +43,21 @@ export default {
 
     input[type="text"] {
         flex: 10;
-        padding: 5px;
+        padding: 10px;
+        font-size: 1.1em;
+        font-family: 'Neuton', serif;
     }
 
-    input[tupe="submit"] {
-        flex: 2;
+    input[type="submit"] {
+        flex: 1;
+        
+    }
+
+    .logo {
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 </style>

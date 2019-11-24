@@ -25,19 +25,19 @@ export default {
       todos: [
         {
           id: 1,
-          title: "Cleaning",
+          title: "Clean my room",
           completed: false
         },
 
         {
           id: 2,
-          title: "Meeting with Trevor",
-          completed: true
+          title: "Pay rent",
+          completed: false
         },
 
         {
           id: 3,
-          title: "Ventures Internship Induction",
+          title: "Create TodoApp with Vue",
           completed: false
         }
       ]
@@ -69,7 +69,7 @@ export default {
   .btn {
     display: inline-block;
     border: none;
-    background: #555;
+    background: #6c63ff;
     color: #fff;
     padding: 7px 20px;
     cursor: pointer;
@@ -79,4 +79,6 @@ export default {
     background: #666;
 
   }
+
+  @import url('https://fonts.googleapis.com/css?family=Neuton|Proza+Libre&display=swap');
 </style>
